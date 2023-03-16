@@ -1,5 +1,10 @@
 #include <stdio.h>  /* Including standard input/output header file.*/
-int main (void)
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
 {
 	int x;  /*Declaring an integer variable x.*/
 	long int y;  /*Declaring a long integer variable y.*/
