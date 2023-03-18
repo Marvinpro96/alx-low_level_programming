@@ -1,9 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
+/*Main function that slects diffent numbers randomly and generate the answer*/
 int main(void)
 	/*Main function*/
 {
