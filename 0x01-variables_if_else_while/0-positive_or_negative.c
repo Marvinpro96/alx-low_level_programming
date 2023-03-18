@@ -1,7 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/*Main function that slects diffent numbers randomly and generate the answer*/
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ *Main function that slects diffent numbers randomly and generate the answer*/
 int main(void)
 	/*Main function*/
 {
