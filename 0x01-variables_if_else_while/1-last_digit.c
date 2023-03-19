@@ -10,34 +10,31 @@
 int main(void)
         /*Main function*/
 {
-        int n;
-/* Seed the random number generator with the current time*/
-        srand(time(0));
-        n = rand() - RAND_MAX / 2;
-        /* Check if the number is greater than 5*/
-        if (n > 5)
+	int n;
+	/* Seed the random number generator with the current time*/
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	/*Compute the last digit of n*/
+	int last_digit = n % 10;
+	/*Print the result based on the value of the last digit*/
+	printf("Last digit of %d is ", n);
+	/* Check if the number is greater than 5*/
+        if (last_digit > 5)
         {
                 /*Print the number and a message indicating that it is greater than 5*/
-                printf("%d is greater than 5\n", n);
+                printf("%d is greater than 5\n", last_digit);
                 /*Check if the number is zero*/
-        }
-        else if (n == 0)
+	}
+	else if (last_digit == 0)
 	{
         /*Print the number and a message indicating that it is zero*/
-                printf("%d is zero\n", n);
-                /*Otherwise, the number is negative*/
-        }
-        else if (n<6)
-        {
-        /*Print the number and a message indicating that it is less than 6*/
-                printf("%d is negative\n", n);
-		 /*Otherwise, the number is is less than 6 and not 0*/
+		printf("%d is zero\n", last_digit);
+	       	/*Otherwise, the number is is less than 6 and not 0*/
 	}
 	else
 	{
-	 /*Print the number and a message indicating that the number is is less than 6 and not 0*/
-		printf("%d is less than 6 and not 0\n", n);
+	       	/*Print the number and a message indicating that the number is is less than 6 and not 0*/
+		printf("%d is less than 6 and not 0\n", last_digit);
 	}
-
-        return (0);
+       	return (0);
 }
