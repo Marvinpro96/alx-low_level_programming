@@ -11,7 +11,7 @@ int main(void)
         /*Main function*/
 {
 	int n;
-	l_s = n%10
+	int l_s = n%10
 	/* Seed the random number generator with the current time*/
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
