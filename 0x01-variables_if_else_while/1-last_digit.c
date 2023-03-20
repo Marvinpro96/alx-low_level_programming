@@ -11,10 +11,11 @@ int main(void)
         /*Main function*/
 {
 	int n;
+	int l_s = n %10;
 	/* Seed the random number generator with the current time*/
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	int l_s = n %10;
+
 	/*Compute the last digit of n*/
 	/*Print the result based on the value of the last digit*/
 	printf("Last digit of %d is ", l_s);
