@@ -7,6 +7,8 @@
 int main(void)
 {
 	char ch;
+	
+	/*print apherbets in reverse order*/
 	for (ch = 'z'; ch >= 'a'; ch--)
 	{
 	       	putchar (ch);
