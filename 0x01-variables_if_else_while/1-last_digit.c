@@ -22,19 +22,19 @@ int main(void)
         if (n%10 > 5)
         {
                 /*Print the number and a message indicating that it is greater than 5*/
-                printf("%d is greater than 5\n", n);
+                printf("%d is greater than 5\n", n%10);
                 /*Check if the number is zero*/
 	}
 	else if (n%10 == 0)
 	{
         /*Print the number and a message indicating that it is zero*/
-		printf("%d is zero\n", n);
+		printf("%d is zero\n", n%10);
 	       	/*Otherwise, the number is is less than 6 and not 0*/
 	}
 	else
 	{
 	       	/*Print the number and a message indicating that the number is is less than 6 and not 0*/
-		printf("%d is less than 6 and not 0\n", n);
+		printf("%d is less than 6 and not 0\n", n%n);
 	}
        	return (0);
 }
