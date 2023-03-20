@@ -7,7 +7,7 @@
 int main(void)
 {
 	char ch;
-	
+	/*Prints the lowercase alphabet in reverse.*/
 	/*print apherbets in reverse order*/
 	for (ch = 'z'; ch >= 'a'; ch--)
 	{
