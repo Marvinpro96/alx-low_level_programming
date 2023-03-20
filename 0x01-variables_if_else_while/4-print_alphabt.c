@@ -8,7 +8,7 @@ int main(void)
 {
 	char ch;
 	/*print lowecase alphabets*/
-	for (ch = 'a'; ch <= "z"; ch++)
+	for (ch = 'a'; ch <= 'z'; ch++)
 	{
 		if (ch != 'e' && ch != 'q')
 		{
