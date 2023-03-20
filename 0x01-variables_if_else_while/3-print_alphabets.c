@@ -19,5 +19,8 @@ int main(void)
 	{
 		putchar(ch);
 	}
+	/*print a new line using putchar*/
+	putchar('\n');
+
 	return (0);
 }
