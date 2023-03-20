@@ -7,7 +7,6 @@
 int main(void)
 {
 	char ch;
-	
 	/*print lowercase alphabet using putchar*/
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
