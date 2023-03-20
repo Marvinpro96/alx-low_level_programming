@@ -4,11 +4,11 @@
  *
  * Return: Always 0 (Success)
  */
-int main(void) 
+int main(void)
 {
 	char ch;
 	/*print lowercase alphabet using putchar*/
-	for (ch = 'a'; ch <= 'z'; ch++) 
+	for (ch = 'a'; ch <= 'z'; ch++)
 	{
 		putchar(ch);
 	}
@@ -16,5 +16,5 @@ int main(void)
 
 	putchar('\n');
 
-	return 0;
+	return (0);
 }
