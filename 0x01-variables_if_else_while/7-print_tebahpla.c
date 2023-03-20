@@ -11,7 +11,7 @@ int main(void)
 	/*print apherbets in reverse order*/
 	for (ch = 'z'; ch >= 'a'; ch--)
 	{
-	       	putchar (ch);
+		putchar (ch);
 	}
 	putchar('\n');
 	return (0);
