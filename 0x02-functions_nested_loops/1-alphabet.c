@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <unistd.h>
-
+#include "main.h"
 /**
   * print_alphabet - Make the alphabet
   *
