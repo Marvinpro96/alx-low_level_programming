@@ -7,16 +7,16 @@
  *
  * Return: Lowercase changed to uppercase of the string
  */
-char *string_toupper(char *)
+char *string_toupper(char *m)
 {
 	int index = 0;
 	int desp = 'a' - 'A';
 
-	for (index = 0; *[index] != '\0'; ++index)
+	for (index = 0; m[index] != '\0'; ++index)
 	{
-		if (*[index] >= 'a' && *[index] <= 'z')
+		if (m[index] >= 'a' && m[index] <= 'z')
 		{
-			*[index] = *[index] - desp;
+			m[index] = m[index] - desp;
 		}
 	}
 	return (0);
