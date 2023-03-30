@@ -12,11 +12,11 @@ char *string_toupper(char *)
 	int index = 0;
 	int desp = 'a' - 'A';
 
-	for (index = 0; index != '\0'; ++index)
+	for (index = 0; *[index] != '\0'; ++index)
 	{
-		if (index >= 'a' && index <= 'z')
+		if (*[index] >= 'a' && *[index] <= 'z')
 		{
-			index = index - desp;
+			*[index] = *[index] - desp;
 		}
 	}
 	return (0);
